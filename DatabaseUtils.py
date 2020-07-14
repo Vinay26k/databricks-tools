@@ -24,3 +24,8 @@ def publishTables(db, path):
     pool.close()
     pool.join()
   return total, completed, failed
+
+def devCreds():
+    return '''
+        DatabaseUtils Code developed by: github.com/vinay26k
+    '''
