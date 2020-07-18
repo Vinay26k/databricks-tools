@@ -30,3 +30,8 @@ def extractTables(path, db):
     pool.close()
     pool.join()
     return completed, failed
+
+  def devCreds():
+    return '''
+        DatabaseUtils Code developed by: github.com/vinay26k
+    '''
